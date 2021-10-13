@@ -1,9 +1,9 @@
 # javacc-variables-correo-url-numeros
 Este proyecto analiza un documento del tipo .txt y detecta las cadenas de texto que sean variables, números, correos y url's.
 
-### verifica si tienes java instalado en tu pc escribiendo en el CMD java
+### Verifica si tienes java instalado en tu pc escribiendo en el CMD java
 Aqui se puede descargar https://www.oracle.com/java/technologies/downloads/#jdk17-windows
-
+![image](https://user-images.githubusercontent.com/72781778/137101372-0a237854-5287-41b5-bd49-d96d2a3f89f7.png)
 ### Explicacion de como instalar javacc en Windows
 
 1. Descargar la herramienta de javacc  https://bit.ly/39C5tGZ
