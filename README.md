@@ -2,7 +2,7 @@
 Este proyecto analiza un documento del tipo .txt y detecta las cadenas de texto que sean variables, números, correos y url's.
 
 ### verifica si tienes java instalado en tu pc escribiendo en el CMD java
-aqui se puede descargar https://www.oracle.com/java/technologies/downloads/#jdk17-windows
+Aqui se puede descargar https://www.oracle.com/java/technologies/downloads/#jdk17-windows
 
 ### Explicacion de como instalar javacc en Windows
 
@@ -16,18 +16,22 @@ aqui se puede descargar https://www.oracle.com/java/technologies/downloads/#jdk1
 ![](https://static.javatpoint.com/core/images/javacc6.png)
 <br/><br/>
 4. Descargar el archivo javacc-7.0.9.jar de https://bit.ly/3nKU3G4
+5. Copiar el archivo .jar en la carpeta target creada
 <br/><br/>
-![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![](https://static.javatpoint.com/core/images/javacc7.png)
 <br/><br/>
-6. Copiar el archivo .jar en la carpeta target creada
+6. Renombrar el archivo como javacc.jar
 <br/><br/>
-![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![](https://static.javatpoint.com/core/images/javacc8.png)
 <br/><br/>
-8. Renombrar el archivo como javacc.jar
+7. Ir a variables de entorno
 <br/><br/>
-![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![](https://github.com/omar49511/javacc-variables-correo-url-numeros/blob/main/javacc%20programas/imagenes/Captura%20de%20pantalla%202021-10-12%20165954.png?raw=true)
+![](https://github.com/omar49511/javacc-variables-correo-url-numeros/blob/main/javacc%20programas/imagenes/Captura%20de%20pantalla%202021-10-12%20170512.png?raw=true)
 <br/><br/>
-10. Ir a variables de entorno
-<br/>
-![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-<br/>
+8. Buscar en variables del sistema la opcion de Path
+![](https://github.com/omar49511/javacc-variables-correo-url-numeros/blob/main/javacc%20programas/imagenes/Captura%20de%20pantalla%202021-10-12%20170559.png?raw=true)
+9. Darle en nuevo y agregar la ruta de la carpeta scrips
+![image](https://user-images.githubusercontent.com/72781778/137098134-359a72e3-c4e5-4a47-976a-56b62515477f.png)
+
+
