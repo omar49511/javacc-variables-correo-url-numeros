@@ -10,7 +10,7 @@ aqui se puede descargar https://www.oracle.com/java/technologies/downloads/#jdk1
 2. Hay que descomprimir el archivo en el disco local C:
 ![](https://github.com/omar49511/javacc-variables-correo-url-numeros/blob/main/javacc%20programas/imagenes/Captura%20de%20pantalla%202021-10-12%20153039.png?raw=true){width='100px'}
 3. Creas una carpeta en llamada target dentro de C:javacc-javacc-7.0.9
-![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
+![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png),{width='100px'}
 4. Descargar el archivo javacc-7.0.9.jar de https://bit.ly/3nKU3G4
 ![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
 6. Copiar el archivo .jar en la carpeta target creada
