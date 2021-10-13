@@ -1,0 +1,64 @@
+PARSER_BEGIN(test)
+public class test
+{
+  public static void main( String args []) throws ParseException{
+    try
+    {
+      test analizador = new test( System.in );
+      analizador.Iniciar();
+      System.out.println("La cadena fue aceptada correctamente");
+    }
+    catch(ParseException e)
+    {
+      System.out.println(e.getMessage());
+      System.out.println("Hubo un error y la cadena no fue acepatada");
+    }
+  }
+}
+PARSER_END(test)
+
+TOKEN : /* VARIABLE */
+{
+< #LETRA: ["_","a"-"z","A"-"Z"] >
+|< #DIGITO: ["0"-"9"] >
+|< #SIGNOMENOS: ["-"]>
+|< #SIGNOMAS: ["+"]>
+|< #PUNTO: ["."]>
+|< #ARROBA: ["@"]>
+|< #DOSPUNTOS: [":"]>
+|< #DIAGONAL: ["/"]>
+|< #HTTP: ["H","h"]["T","t"]["T","t"]["P","p"]>
+|< #HTTPS: ["H","h"]["T","t"]["T","t"]["P","p"]["S","s"]>
+}
+TOKEN :
+{
+< VARIABLE: <LETRA> (<LETRA>|<DIGITO>)* >{System.out.println("VARIABLE -> "+ image);}
+}
+
+TOKEN :
+{
+<NUMERO: (<SIGNOMENOS>)?(<DIGITO>)+(<PUNTO>(<DIGITO>)+)?> {System.out.println("NUMERO -> "+ image);}
+}
+TOKEN :
+{
+<CORREO: (<VARIABLE>)+(<ARROBA>)(<VARIABLE>)+(<PUNTO>)(<VARIABLE>)+> {System.out.println("CORREO -> "+ image);}
+}
+TOKEN :
+{
+<URL: ((<HTTP>|<HTTPS>)<DOSPUNTOS><DIAGONAL><DIAGONAL>)?(<VARIABLE>)+(<PUNTO>(<VARIABLE>)+)*> {System.out.println("URL -> "+ image);}
+}
+
+SKIP :
+{
+  " "
+| "\t"
+| "\n"
+| "\r"
+}
+
+void Iniciar() :
+{}
+{
+  (<VARIABLE>|<NUMERO>|<CORREO>|<URL>)*<EOF>
+}
+
