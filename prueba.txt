@@ -1,5 +1,0 @@
-variable1
-3.1416
-omar@gmail.com
-www.google.com
-65ghj
