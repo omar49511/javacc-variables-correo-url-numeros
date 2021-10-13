@@ -41,7 +41,7 @@ Aqui se puede descargar https://www.oracle.com/java/technologies/downloads/#jdk1
 <br/><br/>
 ![image](https://user-images.githubusercontent.com/72781778/137098564-e9985860-dc3b-4f29-8e92-bb5a30b7433a.png)
 <br/><br/>
---
+---
 ### Pasos para compilar el programa
 1. Moverse a la ruta donde se guardo la carpeta javacc programas en mi caso el escritorio
 <br/><br/>
