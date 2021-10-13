@@ -8,8 +8,14 @@ aqui se puede descargar https://www.oracle.com/java/technologies/downloads/#jdk1
 
 1. Descargar la herramienta de javacc  https://bit.ly/39C5tGZ
 2. Hay que descomprimir el archivo en el disco local C:
+![](){width='100px'}
 3. Creas una carpeta en llamada target dentro de C:javacc-javacc-7.0.9
+![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
 4. Descargar el archivo javacc-7.0.9.jar de https://bit.ly/3nKU3G4
-5. Copiar el archivo .jar en la carpeta target creada
-6. Renombrar el archivo como javacc.jar
-7. Ir a variables de entorno
+![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
+6. Copiar el archivo .jar en la carpeta target creada
+![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
+8. Renombrar el archivo como javacc.jar
+![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
+10. Ir a variables de entorno
+![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}
